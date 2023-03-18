@@ -1,0 +1,64 @@
+/*font-family: 'Epilogue', sans-serif;*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image:url('assets/fundo.svg');
+  display: grid;
+  gap: 50px;
+  grid-template-areas: "A B C D" "E F G H" "I J K L"; 
+  margin: 225px 188px;
+}
+
+.toupeira4 {
+  animation: toupeira 1s;
+  animation-delay: 6s;
+  background-image: url(assets/toupeira6.svg);
+  background-repeat: no-repeat;
+  
+}
+
+.toupeira6 {
+  animation: toupeira 1s;
+  animation-delay: 500ms;
+  background-image: url(assets/toupeira6.svg);
+  background-repeat: no-repeat;
+}
+
+.toupeira11 {
+  animation: toupeira 1s;
+  animation-delay: 4s;
+  background-image: url(assets/toupeira6.svg);
+  background-repeat: no-repeat;
+}
+
+@keyframes toupeira {
+  0% {
+    background-image: url(assets/toupeira6.svg);
+  }
+
+  20% {
+    background-image: url(assets/toupeira1.svg);
+  }
+
+  40% {
+    background-image: url(assets/toupeira2.svg);
+  }
+
+  60% {
+    background-image: url(assets/toupeira3.svg);
+  }
+
+  80% {
+    background-image: url(assets/toupeira4.svg);
+  }
+
+  100% {
+    background-image: url(assets/toupeira5.svg);
+  }
+
+
+}
